@@ -1,0 +1,5 @@
+tasks:
+  - init: docker-compose.yml
+    command: docker-compose up -d
+image:
+  file: .gitpod.Dockerfile
